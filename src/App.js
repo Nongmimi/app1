@@ -2,6 +2,7 @@ import React from 'react'
 import { Header, Content, Footer } from './func-components';
 import Calendar from './class-components';
 import Button from './class-components';
+import {Calculator2} from './calculator';
 
 // function App(){
 //   return(
@@ -15,8 +16,14 @@ import Button from './class-components';
 // }
 // export default App;
 
-function App() {
-  return <Button/>
+// function App() {
+//   return <Button/>
+// }
+// export default App;
+
+export default function App(){
+  return <Calculator2/>
 }
-export default App;
+
+
 
