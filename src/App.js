@@ -3,7 +3,8 @@ import { Header, Content, Footer } from './func-components';
 import Calendar from './class-components';
 import Button from './class-components';
 import {Calculator2} from './calculator';
-import { EventData2 } from './event-data';
+import {EventData2} from './event-data';
+import RefsFunc from './refs-func'
 
 // function App(){
 //   return(
@@ -26,7 +27,11 @@ import { EventData2 } from './event-data';
 //   return <Calculator2/>
 // }
 
+// export default function App(){
+//      return <EventData2/>
+// }
+
 export default function App(){
-     return <EventData2/>
+     return <RefsFunc/>
 }
 
