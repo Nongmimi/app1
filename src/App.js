@@ -1,11 +1,11 @@
-import React from 'react'
-import { Header, Content, Footer } from './func-components';
-import Calendar from './class-components';
-import Button from './class-components';
-import {Calculator2} from './calculator';
-import {EventData2} from './event-data';
-import RefsFunc from './refs-func'
-import MessageBox from './state-func';
+// import React from 'react'
+// import { Header, Content, Footer } from './func-components';
+// import Calendar from './class-components';
+// import Button from './class-components';
+// import {Calculator2} from './calculator';
+// import {EventData2} from './event-data';
+// import RefsFunc from './refs-func'
+// import MessageBox from './state-func';
 
 // function App(){
 //   return(
@@ -40,16 +40,24 @@ import MessageBox from './state-func';
 //      return <MessageBox/>
 // }
 
-import { userContext } from './context';
-import Header2 from './context-header2';
-import Content2 from './context-content2';
+// import { userContext } from './context';
+// import Header2 from './context-header2';
+// import Content2 from './context-content2';
 
-export default function App() {
-     let [user, setUser] = React.useState('')
-     return (
-          <userContext.Provider value={[user, setUser]}>
-               <Header2/>
-               <Content2/>
-          </userContext.Provider>
-     )
+// export default function App() {
+//      let [user, setUser] = React.useState('')
+//      return (
+//           <userContext.Provider value={[user, setUser]}>
+//                <Header2/>
+//                <Content2/>
+//           </userContext.Provider>
+//      )
+// }
+
+import React from 'react'
+import Router2 from './router2'
+import Router3 from './router3'
+
+export default function App(){
+     return <Router3/>
 }
